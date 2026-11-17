@@ -54,7 +54,7 @@ function renderQuestions() {
       const answerWrap = document.createElement("div");
       answerWrap.className = "answer-wrap";
       answerWrap.innerHTML = `
-        <div class="mini-avatar"><img src="assets/robot.png" alt=""></div>
+        <div class="mini-avatar"><img src="robot.png" alt=""></div>
         <div class="answer">
           <div>${item.a}</div>
         </div>
